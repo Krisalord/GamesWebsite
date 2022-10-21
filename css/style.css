@@ -18,25 +18,22 @@
 }
 
 /******************************************
-/* BASE STYLES
+/* STYLE FOR GAME BOXES
 /*******************************************/
-
-body {
-
+.gameBox{
+     border: 3px solid red;
+     height: 50vh;
+     display: flex;
+     flex-flow: row;
 }
-
-
-/******************************************
-/* LAYOUT
-/*******************************************/
-header {
-
+.gameImage{
+     border: 3px solid green;
+     width: 20vw;
+     display: flex;
+     flex-flow: row;
+     background-image: url("/css/images/game1.jpg");
 }
-
-footer {
-
+.gameText{
+     border: 3px solid blue;
+     width: 80vw;
 }
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
