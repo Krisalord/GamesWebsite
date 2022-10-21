@@ -20,6 +20,9 @@
 /******************************************
 /* STYLE FOR GAME BOXES
 /*******************************************/
+body{
+
+}
 .gameBox{
      border: 3px solid red;
      height: 50vh;
@@ -29,9 +32,8 @@
 .gameImage{
      border: 3px solid green;
      width: 20vw;
-     display: flex;
-     flex-flow: row;
-     background-image: url("/css/images/game1.jpg");
+     display: grid;
+     grid-template-columns: min-content 1fr;
 }
 .gameText{
      border: 3px solid blue;
